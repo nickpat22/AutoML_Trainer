@@ -1,0 +1,24 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Locally saved models
+models/
+
+# Uploaded/private datasets
+datasets/*.csv
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
